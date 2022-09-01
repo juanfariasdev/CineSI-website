@@ -1,0 +1,34 @@
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.movies > div {
+  width: 30%;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .movies > div {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1024px) {
+  .movies > div {
+    width: 49%;
+    overflow: hidden;
+  }
+}
+
+.movies img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+}
+.movies .titleMovie {
+  font-size: 30px;
+}
+.movies .infoMovie {
+  padding-bottom: 30px;
+}

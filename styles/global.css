@@ -1,0 +1,109 @@
+:root {
+  --color-black: #000000;
+  --color-white: #fff;
+  --color-orange: rgb(255, 157, 0);
+  --color-blue: royalblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  font-family: "Arial", sans-serif;
+  list-style: none;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: 0.2s all;
+}
+body {
+  background-color: var(--color-black);
+}
+header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 20px 0px;
+  border-bottom: 1px solid var(--color-white);
+}
+header div {
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+}
+.titleLogo {
+  font-family: "Sen", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.container {
+  width: 100%;
+  max-width: 1172px;
+  display: flex;
+}
+.navBar {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  gap: 20px;
+}
+.navBar a:hover {
+  transform: scale(1.1);
+}
+.navBar a.active {
+  color: var(--color-blue);
+}
+main {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.movies > div {
+  width: 30%;
+  overflow: hidden;
+}
+@media (max-width: 767px) {
+  .movies > div {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width: 1024px) {
+  .movies > div {
+    width: 49%;
+    overflow: hidden;
+  }
+}
+
+.movies img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 200px;
+}
+.movies .titleMovie {
+  font-size: 30px;
+}
+.movies .infoMovie {
+  padding-bottom: 30px;
+}
+
+.titlePage {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.todayMovie {
+  color: darkgreen;
+}
+.tomorrowMovie {
+  color: darkblue;
+}
