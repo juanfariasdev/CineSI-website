@@ -3,7 +3,7 @@
 </h1>
 <p align="center">Aplicação de um aplicativo de catalogo de cinema SIMPLES</p>
 
-Acesso o projeto online [clicando aqui](https://juanfariasdev.github.io/projeto_cinema/)
+Acesso o projeto online [clicando aqui](https://juanfariasdev.github.io/CineSI-website/)
 
 ## 🎯 Sobre o projeto
 
