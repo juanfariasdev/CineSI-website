@@ -1,5 +1,5 @@
 <h1 align="center">
-    CineSI - HTML && CSS
+    CineSI - HTML & CSS
 </h1>
 <p align="center">Aplicação de um aplicativo de catalogo de cinema SIMPLES</p>
 
