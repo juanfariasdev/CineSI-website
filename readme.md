@@ -33,3 +33,9 @@ Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais informações
 ## Autor
 
 Desenvolvido por [Juan Pablo Farias](https://juanpablofarias.com/) 👋
+
+## Prints
+
+![Screenshots](screenshots/print1.jpg)
+![Screenshots](screenshots/print2.jpg)
+
