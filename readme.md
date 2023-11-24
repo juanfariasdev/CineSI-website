@@ -36,6 +36,5 @@ Desenvolvido por [Juan Pablo Farias](https://juanpablofarias.com/) 👋
 
 ## Prints
 
-![Screenshots](screenshots/print1.jpg)
-![Screenshots](screenshots/print2.jpg)
+![Screenshots](screenshots/print.jpg)
 
