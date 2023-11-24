@@ -13,9 +13,9 @@ O projeto tem como objetivo a entrega de um trabalho prático de "Tecnologias de
 
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
-$ git clone https://github.com/juanfariasdev/projeto_cinema.git
+$ git clone https://github.com/juanfariasdev/CineSI-website.git
 # Entre na pasta do repositório clonado
-$ cd projeto_cinema
+$ cd CineSI-website
 ```
 
 ### **Iniciando o projeto**
